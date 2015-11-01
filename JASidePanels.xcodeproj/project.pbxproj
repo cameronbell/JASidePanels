@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FCE35611BD1844200B51119 /* SquareSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE35601BD1844200B51119 /* SquareSidePanelController.m */; };
+		3E78D7E01BE66EFF004C86AF /* SquareSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E78D7DF1BE66EFF004C86AF /* SquareSidePanelController.m */; };
 		5C49572716C555F700250332 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C49572616C555F700250332 /* Default-568h@2x.png */; };
 		95322A731517AEF40069C8D7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95322A701517AEEB0069C8D7 /* QuartzCore.framework */; };
 		9561ACB2151286EE005889C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9561ACB1151286EE005889C6 /* UIKit.framework */; };
@@ -25,8 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FCE355F1BD1844200B51119 /* SquareSidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareSidePanelController.h; sourceTree = "<group>"; };
-		3FCE35601BD1844200B51119 /* SquareSidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareSidePanelController.m; sourceTree = "<group>"; };
+		3E78D7DE1BE66EFF004C86AF /* SquareSidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SquareSidePanelController.h; path = Source/SquareSidePanelController.h; sourceTree = "<group>"; };
+		3E78D7DF1BE66EFF004C86AF /* SquareSidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SquareSidePanelController.m; path = Source/SquareSidePanelController.m; sourceTree = "<group>"; };
 		5C49572616C555F700250332 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		95322A701517AEEB0069C8D7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9561ACAD151286EE005889C6 /* JASidePanels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JASidePanels.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,8 +122,8 @@
 			children = (
 				9561AD0D15130EE2005889C6 /* JASidePanelController.h */,
 				9561AD0E15130EE2005889C6 /* JASidePanelController.m */,
-				3FCE355F1BD1844200B51119 /* SquareSidePanelController.h */,
-				3FCE35601BD1844200B51119 /* SquareSidePanelController.m */,
+				3E78D7DE1BE66EFF004C86AF /* SquareSidePanelController.h */,
+				3E78D7DF1BE66EFF004C86AF /* SquareSidePanelController.m */,
 				95BCC45815F081130009F1DA /* UIViewController+JASidePanel.h */,
 				95BCC45915F081130009F1DA /* UIViewController+JASidePanel.m */,
 			);
@@ -213,13 +213,13 @@
 			files = (
 				9561AD0F15130EE2005889C6 /* JASidePanelController.m in Sources */,
 				9561AD1915130F10005889C6 /* JAAppDelegate.m in Sources */,
+				3E78D7E01BE66EFF004C86AF /* SquareSidePanelController.m in Sources */,
 				9561AD1A15130F10005889C6 /* JACenterViewController.m in Sources */,
 				9561AD1B15130F10005889C6 /* JALeftViewController.m in Sources */,
 				9561AD1C15130F10005889C6 /* JARightViewController.m in Sources */,
 				9561AD2115130F2A005889C6 /* main.m in Sources */,
 				95BCC45A15F081130009F1DA /* UIViewController+JASidePanel.m in Sources */,
 				9568132B16373ACB007B3602 /* JADebugViewController.m in Sources */,
-				3FCE35611BD1844200B51119 /* SquareSidePanelController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
